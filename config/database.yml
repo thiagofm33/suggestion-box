@@ -13,4 +13,4 @@ test:
 
 production:
   <<: *default
-  database: suggestion_box_production
+  database: <%= ENV['DATABASE_URL'] %>
