@@ -1,1 +1,1 @@
-rvm --version
+heroku --version
