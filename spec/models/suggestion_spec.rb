@@ -1,5 +1,11 @@
 require 'rails_helper'
 
 RSpec.describe Suggestion, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  describe :default_scope do
+    context 'Trying with no Suggestions' do
+      it 'does not fetch any suggestions' do
+        expect(Suggestion.count).to eq 3
+      end
+    end
+  end
 end
