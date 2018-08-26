@@ -1,3 +1,1 @@
-#!/usr/bin/env ruby
-
-puts 'Arroz eh lindo!'
+echo 'Arroz eh lindo!'
