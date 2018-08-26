@@ -1,5 +1,5 @@
 heroku git:remote -a suggestion-list
 
-ls -la
+echo $(git log)
 
 git push -f heroku master
