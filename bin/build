@@ -1,1 +1,1 @@
-heroku --version
+git push heroku master
