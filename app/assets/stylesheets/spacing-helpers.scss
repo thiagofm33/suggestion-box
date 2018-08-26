@@ -1,0 +1,20 @@
+$sizes: (0,3,6,9,15,24,39,63);
+$sides: ('top','left','bottom','right');
+
+@each $size in $sizes {
+  .m-#{$size} {
+    margin: $size + px;
+  }
+  .p-#{$size} {
+    padding: $size + px;
+  }
+
+  @each $side in $sides {
+    .m-#{$side}-#{$size} {
+      margin-#{$side}: $size + px;
+    }
+    .p-#{$side}-#{$size} {
+      padding-#{$side}: $size + px;
+    }
+  }
+}
