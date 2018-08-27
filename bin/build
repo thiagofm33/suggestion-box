@@ -1,3 +1,0 @@
-heroku git:remote -a suggestion-list
-
-git push -f heroku dev:master
